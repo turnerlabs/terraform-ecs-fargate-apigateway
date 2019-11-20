@@ -1,0 +1,9 @@
+# this file is used by fargate-create (https://github.com/turnerlabs/fargate-create)
+# if not using fargate-create, this file can be ignored/deleted
+
+prompts:
+
+  - question: "Would you like a Route53 zone for DNS?"
+    default: "no"
+    filesToDeleteIfNo:
+      - "dns.tf"
