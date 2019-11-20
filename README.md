@@ -60,6 +60,7 @@ These components are shared by all environments.
 | [main.tf](./base/main.tf) | AWS provider, output |  |
 | [state.tf](./base/state.tf) | S3 bucket backend for storing Terraform remote state  |  |
 | [ecr.tf](./base/ecr.tf) | ECR repository for application (all environments share)  |  ||
+| [dns.tf](./base/dns.tf) | Route53 zone for DNS (all environments share)  | Yes | | 
 
 ### env/dev
 
